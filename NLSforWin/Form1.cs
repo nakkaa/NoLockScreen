@@ -117,7 +117,7 @@ namespace NLSforWin
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://7ka.org");
+            Process.Start("https://7ka.org");
         }
     }
 }

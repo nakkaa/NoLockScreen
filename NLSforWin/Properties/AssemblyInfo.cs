@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("ロック画面にサヨナラ！")]
-[assembly: AssemblyDescription("Windows8以降のロック画面を無効化するソフトウェア")]
+[assembly: AssemblyTitle("NoLockScreenForWindows")]
+[assembly: AssemblyDescription("Windows 10/8.1 のロック画面を無効化するソフトウェア")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("としつーる")]
-[assembly: AssemblyProduct("NLSforWin")]
-[assembly: AssemblyCopyright("Copyright ©  2015　 としつーる")]
+[assembly: AssemblyProduct("NoLockScreenForWindows")]
+[assembly: AssemblyCopyright("Copyright © 2020 としつーる")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("3.0.0.0")]
+[assembly: AssemblyFileVersion("4.0.0.0")]
