@@ -21,7 +21,7 @@ namespace NLSforWin
             System.OperatingSystem os = System.Environment.OSVersion;
             //OSバージョンがWindows8.1でなければ終了する
             Version version = os.Version;
-            if (version.Build < 9200)
+            if (version.Build < 9600)
             {
                 MessageBox.Show("このアプリケーションは\nWIndows 8.1 以降のOSに対応しています。","エラー");
                 Environment.Exit(0);
