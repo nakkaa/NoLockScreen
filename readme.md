@@ -1,14 +1,14 @@
-# NoLockScreenForWindows
+# NoLockScreen 11
 
 ## これは何？
 
-* Windows10と8.1のロック画面を無効化(または有効化)するソフトウェアです。
+* Windows8.1, 10, 11のロック画面を無効化(または有効化)するソフトウェアです。
 
 ![](./nls.png)
 
 ## 動作環境
 
-* Windows 10/8.1
+* Windows 8.1, 10, 11
 
 ## ダウンロード
 
