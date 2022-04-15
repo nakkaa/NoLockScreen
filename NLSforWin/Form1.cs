@@ -27,8 +27,6 @@ namespace NLSforWin
 
             InitializeComponent();
 
-            
-
             try//レジストリ値がある
             {
                 RegistryKey rKey = Registry.LocalMachine.OpenSubKey(rKeyName);
@@ -50,7 +48,6 @@ namespace NLSforWin
                 label1.Text = "現在、ロック画面は無効になっています";
                 button1.Text = "有効化する";
             }
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -117,7 +114,7 @@ namespace NLSforWin
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://7ka.org");
+            Process.Start("https://7ka.org/software/nolockscreen8");
         }
     }
 }
